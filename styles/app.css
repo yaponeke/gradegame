@@ -1,0 +1,44 @@
+:root {
+	--smooth-corners: 24, 4;
+}
+
+@font-face {
+  font-family: 'Doris Orange';
+  src: url('/fonts/DorisOrange.woff2') format('woff2'),
+       url('/fonts/DorisOrange.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.body {
+  margin: 0;
+  
+  background: url(/images/background.jpg) no-repeat center top / cover;
+}
+
+.header {
+  display: grid;
+  grid: auto / auto-flow max-content;
+  
+  margin: 1.2rem;
+}
+
+.logo {
+	display: flex;
+	
+	padding: 0.25rem 1rem 0.5rem 1rem;
+	
+  mask-image: paint(smooth-corners);
+  -webkit-mask-image: paint(smooth-corners);
+	backdrop-filter: blur(2rem) brightness(180%);
+	
+	font: 400 2.2rem 'Doris Orange';
+	color: white;
+}
+
+.logo__word:first-child {
+	color: #4796ff;
+}
+.logo__word:last-child {
+	color: #ff6347;
+}
