@@ -36,7 +36,7 @@
 	
   mask-image: paint(smooth-corners);
   -webkit-mask-image: paint(smooth-corners);
-	backdrop-filter: blur(2rem) brightness(180%);
+	backdrop-filter: blur(2rem);
 	
 	font: 400 2.2rem 'Doris Orange';
 	color: white;
