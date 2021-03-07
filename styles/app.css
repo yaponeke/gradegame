@@ -10,10 +10,16 @@
   font-style: normal;
 }
 
+.page {
+	height: 100%;
+}
+
 .body {
+	height: 100%;
+	
   margin: 0;
   
-  background: url(/images/background.jpg) no-repeat center top / cover;
+  background: url(/images/background.png) no-repeat center top / cover;
 }
 
 .header {
