@@ -104,8 +104,10 @@
     padding: 0.25rem 0.5rem;
 
     background-color: yellow;
+    border-radius: 4px;
+/*     
     mask-image: paint(smooth-corners);
     -webkit-mask-image: paint(smooth-corners);
-    
+     */
     color: black;
   }
